@@ -15,7 +15,30 @@ public class HelloWorld {
 			System.out.print(newname[i]+" ");
 		}
 		
-		
+		System.out.println("-------------------------------------------------------------");
+        //First commit-Priyanka
+       
+     System.out.println("Enter your age:");
+     int age=value.nextInt();
+     if (age>0) {
+         if(age>30)
+         {
+             System.out.println("Your getting OLD!!:(");
+         }
+         else if( age>20 || age<=30 )
+         {
+             System.out.println("You are still YOUNG!! :)");          
+         }
+       
+         else if( age>10 || age<=20 )
+         {
+             System.out.println("You are getting still  a KID!! :)");          
+         }
+     }
+     else
+     {
+         System.out.println("INVALID AGE");
+     }
 
 	}
 
